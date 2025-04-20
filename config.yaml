@@ -1,0 +1,30 @@
+create_repo:
+  repo_name: BirdBuddyBuddy
+  description: Automate Instagram post
+  private: false
+  auto_clone: true
+
+create_project:
+  repo: seanr87/BirdBuddyBuddy
+  project_title: BirdBuddyBuddyBuddy
+  project_description: Project board for BirdBuddyBuddy development
+  milestone_title: Prototype
+  release_tag: v1
+  release_name: Prototype Release
+  release_description: See if we can make this work
+  custom_fields:
+    - name: start date
+      type: text
+    - name: end date
+      type: text
+    - name: workstream
+      type: single_select
+      options: [Project Management, Documentation, Development]
+    - name: mvp
+      type: single_select
+      options: ["Yes", "No"]
+    - name: dependencies
+      type: text
+
+import_issues:
+  issue_csv_path: "C:/Users/seanr/BirdBuddyBuddy/Updated_BirdBuddyBuddy_Issues.csv"

@@ -1,0 +1,14 @@
+title,body,labels,assignees,priority,mvp,milestone
+Install Bird Buddy App,Install the Bird Buddy mobile app and ensure it is functional.,Project Management,seanr87,High,Yes,Prototype
+Enable Sync to Google Photos,Verify Bird Buddy app syncs photos to Google Photos.,Project Management,seanr87,High,Yes,Prototype
+Create BirdBuddyUploads Folder in Google Drive,Create a shared folder in Google Drive named 'BirdBuddyUploads' and set permissions for automation tools.,Project Management,seanr87,High,Yes,Prototype
+Create BirdBuddy_Post_Log Google Sheet,"Create Google Sheet with columns: Filename, Timestamp, Posted. Share with automation tool.",Documentation,seanr87,High,Yes,Prototype
+Set Up Zapier or Make.com,"Create account and authenticate access to Google Drive, Sheets, and Facebook Graph API.",Development,seanr87,High,Yes,Prototype
+Grant API Access to Automation Platform,"Ensure automation tool has access to required services (Drive, Sheets, IG Business, FB Page).",Development,seanr87,Medium,Yes,Prototype
+Trigger Flow on New Photo in Drive,Test automation trigger when a new image is uploaded to BirdBuddyUploads folder.,Development,seanr87,Medium,Yes,Prototype
+Implement De-duplication Check,Use Google Sheet log to check for existing filename/timestamp to prevent reposting.,Development,seanr87,High,Yes,Prototype
+Connect to Instagram Graph API,Establish authenticated connection to IG Business account through Facebook Graph API.,Development,seanr87,High,Yes,Prototype
+Post Image to Instagram with Caption,Ensure post includes static caption: 'A feathered friend stopped by! 🐦 #BirdBuddy #birdwatching'.,Development,seanr87,High,Yes,Prototype
+Log Metadata to Google Sheet,Append filename and timestamp to BirdBuddy_Post_Log after successful post.,Development,seanr87,Medium,Yes,Prototype
+Run Full Pipeline Test,Upload a test image and confirm end-to-end posting and logging.,Development,seanr87,High,Yes,Go Live
+Go Live with Real-Time Posting,Deploy system in real-time. Monitor for 3-5 days.,Project Management,seanr87,Medium,Yes,Go Live
